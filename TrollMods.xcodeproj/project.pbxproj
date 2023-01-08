@@ -72,6 +72,7 @@
 		D619338F296B3AD600485B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D619338A296B3AD600485B44 /* Assets.xcassets */; };
 		D6193392296B8C7D00485B44 /* DOOMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6193391296B8C7D00485B44 /* DOOMView.swift */; };
 		D6193394296B8E3400485B44 /* doom.html in Resources */ = {isa = PBXBuildFile; fileRef = D6193393296B8E3400485B44 /* doom.html */; };
+		D6193396296B8E9B00485B44 /* DOOMImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6193395296B8E9B00485B44 /* DOOMImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +146,7 @@
 		D619338A296B3AD600485B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6193391296B8C7D00485B44 /* DOOMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOOMView.swift; sourceTree = "<group>"; };
 		D6193393296B8E3400485B44 /* doom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = doom.html; sourceTree = "<group>"; };
+		D6193395296B8E9B00485B44 /* DOOMImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOOMImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +355,7 @@
 			children = (
 				D6193393296B8E3400485B44 /* doom.html */,
 				D6193391296B8C7D00485B44 /* DOOMView.swift */,
+				D6193395296B8E9B00485B44 /* DOOMImpl.swift */,
 			);
 			path = DOOMWarranty;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				59007801295E130C00A95DDA /* TrollFXImpl.swift in Sources */,
 				597F69EF295B3DA700E9DDF3 /* TrollModsApp.swift in Sources */,
 				596844AA29609E78009EF84B /* ModsView.swift in Sources */,
+				D6193396296B8E9B00485B44 /* DOOMImpl.swift in Sources */,
 				D6193392296B8C7D00485B44 /* DOOMView.swift in Sources */,
 				597F6A0B295B4C3800E9DDF3 /* vm_unaligned_copy_switch_race.c in Sources */,
 				D619338B296B3AD600485B44 /* DirtyCOWView.swift in Sources */,
@@ -642,7 +646,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5;
+				MARKETING_VERSION = 0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = io.hex36.TrollMods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -683,7 +687,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5;
+				MARKETING_VERSION = 0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = io.hex36.TrollMods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
