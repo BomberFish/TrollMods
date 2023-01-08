@@ -52,6 +52,16 @@ struct ModsList: View {
                     Text("TrollHome")
                 }
             }
+            NavigationLink(destination: TrollMods.TrollHomeView()) {
+                HStack {
+                    Image("DirtyCow")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 32)
+                        .cornerRadius(8)
+                    Text("DirtyCOW")
+                }
+            }
         }
         .navigationTitle("TrollMods")
         
