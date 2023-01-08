@@ -70,6 +70,7 @@
 		D619338B296B3AD600485B44 /* DirtyCOWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6193383296B3AD600485B44 /* DirtyCOWView.swift */; };
 		D619338D296B3AD600485B44 /* poc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6193386296B3AD600485B44 /* poc.m */; };
 		D619338F296B3AD600485B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D619338A296B3AD600485B44 /* Assets.xcassets */; };
+		D6193392296B8C7D00485B44 /* DOOMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6193391296B8C7D00485B44 /* DOOMView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +142,7 @@
 		D6193387296B3AD600485B44 /* dirtycow-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dirtycow-Bridging-Header.h"; sourceTree = "<group>"; };
 		D6193389296B3AD600485B44 /* poc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poc.h; sourceTree = "<group>"; };
 		D619338A296B3AD600485B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6193391296B8C7D00485B44 /* DOOMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOOMView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 		597F69FC295B3EC500E9DDF3 /* Mods */ = {
 			isa = PBXGroup;
 			children = (
+				D6193390296B8C5500485B44 /* DOOMWarranty */,
 				D6193382296B3AB000485B44 /* DirtyCOW */,
 				596844AE29647E60009EF84B /* TrollHome */,
 				596844A3295F7C60009EF84B /* WDBFontOverwrite */,
@@ -342,6 +345,14 @@
 			name = DirtyCOW;
 			path = TrollMods/Mods/DirtyCOW;
 			sourceTree = SOURCE_ROOT;
+		};
+		D6193390296B8C5500485B44 /* DOOMWarranty */ = {
+			isa = PBXGroup;
+			children = (
+				D6193391296B8C7D00485B44 /* DOOMView.swift */,
+			);
+			path = DOOMWarranty;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -476,6 +487,7 @@
 				59007801295E130C00A95DDA /* TrollFXImpl.swift in Sources */,
 				597F69EF295B3DA700E9DDF3 /* TrollModsApp.swift in Sources */,
 				596844AA29609E78009EF84B /* ModsView.swift in Sources */,
+				D6193392296B8C7D00485B44 /* DOOMView.swift in Sources */,
 				597F6A0B295B4C3800E9DDF3 /* vm_unaligned_copy_switch_race.c in Sources */,
 				D619338B296B3AD600485B44 /* DirtyCOWView.swift in Sources */,
 				59007802295E130C00A95DDA /* TrollFXView.swift in Sources */,
