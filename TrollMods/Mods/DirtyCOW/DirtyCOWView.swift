@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DirtyCOWView: View {
+    @State private var showInfo = false;
     struct tweak: Identifiable {
         var id = UUID()
         var name: String
@@ -82,16 +83,18 @@ while true {
                 }
                 .padding(.top, 50)
             }
+            .toolbar {
+                Button(action: { showInfo = true }) {
+                    Image(systemName: "info.circle")
+                }
+                .alert(isPresented: $showInfo) {
+                    Alert(
+                        title: Text("🐮 DirtyCOW"),
+                        message: Text("Originally developed by Mineek. Improved and added to TrollMods by BomberFish.")
+                    )
+                }
+            }
         }.onAppear {
-            let alert = UIAlertController(title: "Warning", message: "This app is for educational purposes only. I am not responsible for any damage to your device caused by this app.", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
-            alert.addAction(UIAlertAction(title: "Credits", style: .default, handler: { action in
-                let credits = ["haxi0", "verygenericname"]
-                let alert = UIAlertController(title: "Credits", message: "This app was made by Mineek, with help from \(credits.joined(separator: ", ")).", preferredStyle: .alert)
-                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
-                UIApplication.shared.windows.first?.rootViewController?.present(alert, animated: true, completion: nil)
-            }))
-            UIApplication.shared.windows.first?.rootViewController?.present(alert, animated: true, completion: nil)
             jsonTweaksInit()
         }
     }
