@@ -66,9 +66,11 @@ struct ModsList: View {
         .navigationTitle("TrollMods")
         
         Button("Respring", action: respring)
-        .buttonStyle(.bordered)
-        .controlSize(.large)
-        .tint(.red);
+            .buttonStyle(.bordered)
+            .controlSize(.large)
+            .tint(.red);
+        
+
     }
 }
 
@@ -88,6 +90,11 @@ struct ModsView: View {
     var body: some View {
         ModsNavigation {
             ModsList()
+            .toolbar {
+                Button(action: respring) {
+                    Image(systemName: "arrow.triangle.2.circlepath")
+                }
+            }
         }
     }
 }

@@ -21,6 +21,7 @@ struct TrollFXView: View {
             Text("TrollFX")
                 .font(.title)
                 .fontWeight(.bold)
+            // Fart.caf :troll:
             Button("Replace Charge Sound ;D", action: OverWriteLockSoundWithFart)
                 .controlSize(.large)
                 .tint(.blue)
