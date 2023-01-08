@@ -52,7 +52,7 @@ struct ModsList: View {
                     Text("TrollHome")
                 }
             }
-            NavigationLink(destination: TrollMods.TrollHomeView()) {
+            NavigationLink(destination: TrollMods.DirtyCOWView()) {
                 HStack {
                     Image("DirtyCow")
                         .resizable()

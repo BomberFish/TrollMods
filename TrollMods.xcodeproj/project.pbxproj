@@ -68,7 +68,6 @@
 		597F6AB4295B52F300E9DDF3 /* trollformation10.png in Resources */ = {isa = PBXBuildFile; fileRef = 597F6A8C295B52F300E9DDF3 /* trollformation10.png */; };
 		597F6AB8295B8C0800E9DDF3 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 597F6AB7295B8C0800E9DDF3 /* Zip */; };
 		D619338B296B3AD600485B44 /* DirtyCOWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6193383296B3AD600485B44 /* DirtyCOWView.swift */; };
-		D619338C296B3AD600485B44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6193385296B3AD600485B44 /* Preview Assets.xcassets */; };
 		D619338D296B3AD600485B44 /* poc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6193386296B3AD600485B44 /* poc.m */; };
 		D619338F296B3AD600485B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D619338A296B3AD600485B44 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -138,7 +137,6 @@
 		597F6A8C295B52F300E9DDF3 /* trollformation10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trollformation10.png; sourceTree = "<group>"; };
 		597F6AB5295B59AC00E9DDF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6193383296B3AD600485B44 /* DirtyCOWView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirtyCOWView.swift; sourceTree = "<group>"; };
-		D6193385296B3AD600485B44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6193386296B3AD600485B44 /* poc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = poc.m; sourceTree = "<group>"; };
 		D6193387296B3AD600485B44 /* dirtycow-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "dirtycow-Bridging-Header.h"; sourceTree = "<group>"; };
 		D6193389296B3AD600485B44 /* poc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poc.h; sourceTree = "<group>"; };
@@ -340,19 +338,10 @@
 				D619338A296B3AD600485B44 /* Assets.xcassets */,
 				D6193383296B3AD600485B44 /* DirtyCOWView.swift */,
 				D6193387296B3AD600485B44 /* dirtycow-Bridging-Header.h */,
-				D6193384296B3AD600485B44 /* Preview Content */,
 			);
 			name = DirtyCOW;
 			path = TrollMods/Mods/DirtyCOW;
 			sourceTree = SOURCE_ROOT;
-		};
-		D6193384296B3AD600485B44 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D6193385296B3AD600485B44 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -460,7 +449,6 @@
 				597F6A05295B443F00E9DDF3 /* TrollLock.xcassets in Resources */,
 				597F69F3295B3DA800E9DDF3 /* Assets.xcassets in Resources */,
 				597F6AA8295B52F300E9DDF3 /* trollformation19.png in Resources */,
-				D619338C296B3AD600485B44 /* Preview Assets.xcassets in Resources */,
 				597F6AAE295B52F300E9DDF3 /* trollformation24.png in Resources */,
 				597F6A9F295B52F300E9DDF3 /* trollformation3.png in Resources */,
 				597F6A9A295B52F300E9DDF3 /* trollformation30.png in Resources */,
