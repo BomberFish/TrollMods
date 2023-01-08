@@ -66,22 +66,6 @@ struct DirtyCOWView: View {
                         }
                     }
                 .background(Color(UIColor.systemBackground))
-                
-                Button(action: {
-                    print("Respringing...")
-                    guard let window = UIApplication.shared.windows.first else { return }
-while true {
-   window.snapshotView(afterScreenUpdates: false)
-}
-                }) {
-                    Text("Respring")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(Color.accentColor)
-                        .cornerRadius(40)
-                }
-                .padding(.top, 50)
             }
             .toolbar {
                 Button(action: { showInfo = true }) {
