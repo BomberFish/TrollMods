@@ -64,13 +64,6 @@ struct ModsList: View {
             }
         }
         .navigationTitle("TrollMods")
-        
-        Button("Respring", action: respring)
-            .buttonStyle(.bordered)
-            .controlSize(.large)
-            .tint(.red);
-        
-
     }
 }
 
