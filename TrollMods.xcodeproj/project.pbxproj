@@ -71,6 +71,7 @@
 		D619338D296B3AD600485B44 /* poc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6193386296B3AD600485B44 /* poc.m */; };
 		D619338F296B3AD600485B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D619338A296B3AD600485B44 /* Assets.xcassets */; };
 		D6193392296B8C7D00485B44 /* DOOMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6193391296B8C7D00485B44 /* DOOMView.swift */; };
+		D6193394296B8E3400485B44 /* doom.html in Resources */ = {isa = PBXBuildFile; fileRef = D6193393296B8E3400485B44 /* doom.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +144,7 @@
 		D6193389296B3AD600485B44 /* poc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poc.h; sourceTree = "<group>"; };
 		D619338A296B3AD600485B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6193391296B8C7D00485B44 /* DOOMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOOMView.swift; sourceTree = "<group>"; };
+		D6193393296B8E3400485B44 /* doom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = doom.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +351,7 @@
 		D6193390296B8C5500485B44 /* DOOMWarranty */ = {
 			isa = PBXGroup;
 			children = (
+				D6193393296B8E3400485B44 /* doom.html */,
 				D6193391296B8C7D00485B44 /* DOOMView.swift */,
 			);
 			path = DOOMWarranty;
@@ -437,6 +440,7 @@
 				597F6A97295B52F300E9DDF3 /* trollformation12.png in Resources */,
 				597F6A91295B52F300E9DDF3 /* trollformation34.png in Resources */,
 				597F6A9B295B52F300E9DDF3 /* trollformation13.png in Resources */,
+				D6193394296B8E3400485B44 /* doom.html in Resources */,
 				597F6AAB295B52F300E9DDF3 /* trollformation33.png in Resources */,
 				597F6AB3295B52F300E9DDF3 /* trollformation32.png in Resources */,
 				597F6A9C295B52F300E9DDF3 /* trollformation14.png in Resources */,
