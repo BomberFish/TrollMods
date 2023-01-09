@@ -73,6 +73,7 @@
 		D6193394296B8E3400485B44 /* doom.html in Resources */ = {isa = PBXBuildFile; fileRef = D6193393296B8E3400485B44 /* doom.html */; };
 		D6193399296B963000485B44 /* DOOMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6193398296B963000485B44 /* DOOMView.swift */; };
 		D619339B296B965400485B44 /* DOOMImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D619339A296B965400485B44 /* DOOMImpl.swift */; };
+		D619339E296B9B2300485B44 /* DOOMLicence.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D619339D296B9B2300485B44 /* DOOMLicence.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -147,6 +148,7 @@
 		D6193393296B8E3400485B44 /* doom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = doom.html; sourceTree = "<group>"; };
 		D6193398296B963000485B44 /* DOOMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOOMView.swift; sourceTree = "<group>"; };
 		D619339A296B965400485B44 /* DOOMImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOOMImpl.swift; sourceTree = "<group>"; };
+		D619339D296B9B2300485B44 /* DOOMLicence.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DOOMLicence.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -356,6 +358,7 @@
 				D6193393296B8E3400485B44 /* doom.html */,
 				D6193398296B963000485B44 /* DOOMView.swift */,
 				D619339A296B965400485B44 /* DOOMImpl.swift */,
+				D619339D296B9B2300485B44 /* DOOMLicence.xcassets */,
 			);
 			path = DOOMLicence;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				597F6AA8295B52F300E9DDF3 /* trollformation19.png in Resources */,
 				597F6AAE295B52F300E9DDF3 /* trollformation24.png in Resources */,
 				597F6A9F295B52F300E9DDF3 /* trollformation3.png in Resources */,
+				D619339E296B9B2300485B44 /* DOOMLicence.xcassets in Resources */,
 				597F6A9A295B52F300E9DDF3 /* trollformation30.png in Resources */,
 				597F6AB0295B52F300E9DDF3 /* trollformation40.png in Resources */,
 				597F6AA2295B52F300E9DDF3 /* trollformation20.png in Resources */,
