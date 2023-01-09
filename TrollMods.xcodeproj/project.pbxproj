@@ -262,7 +262,7 @@
 		597F69FC295B3EC500E9DDF3 /* Mods */ = {
 			isa = PBXGroup;
 			children = (
-				D6193397296B961A00485B44 /* DOOM-RFExposure */,
+				D619339C296B981000485B44 /* DOOMLicence */,
 				D6193382296B3AB000485B44 /* DirtyCOW */,
 				596844AE29647E60009EF84B /* TrollHome */,
 				596844A3295F7C60009EF84B /* WDBFontOverwrite */,
@@ -350,14 +350,14 @@
 			path = TrollMods/Mods/DirtyCOW;
 			sourceTree = SOURCE_ROOT;
 		};
-		D6193397296B961A00485B44 /* DOOM-RFExposure */ = {
+		D619339C296B981000485B44 /* DOOMLicence */ = {
 			isa = PBXGroup;
 			children = (
 				D6193393296B8E3400485B44 /* doom.html */,
 				D6193398296B963000485B44 /* DOOMView.swift */,
 				D619339A296B965400485B44 /* DOOMImpl.swift */,
 			);
-			path = "DOOM-RFExposure";
+			path = DOOMLicence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -646,7 +646,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6.2;
+				MARKETING_VERSION = 0.6.3;
 				PRODUCT_BUNDLE_IDENTIFIER = io.hex36.TrollMods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -687,7 +687,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.6.2;
+				MARKETING_VERSION = 0.6.3;
 				PRODUCT_BUNDLE_IDENTIFIER = io.hex36.TrollMods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

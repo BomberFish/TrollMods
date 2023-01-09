@@ -11,12 +11,12 @@ struct DOOMView: View {
     @State private var showInfo = false;
     var body: some View {
         VStack {
-            Button("Replace the RF Exposure page!", action: OverwriteExposure)
+            Button("Replace the iOS Licence page! (English)", action: OverwriteLicence)
                 .controlSize(.large)
                 .tint(.red)
                 .buttonStyle(.bordered)
         }
-        .navigationTitle("DOOM RFExposure")
+        .navigationTitle("DOOMLicence")
         .toolbar {
             Button(action: { showInfo = true }) {
                 Image(systemName: "info.circle")

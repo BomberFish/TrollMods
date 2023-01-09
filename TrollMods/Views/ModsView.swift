@@ -70,7 +70,7 @@ struct ModsList: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 32)
                         .cornerRadius(8)
-                    Text("DOOM RFExposure")
+                    Text("DOOMLicence")
                 }
             }
         }
