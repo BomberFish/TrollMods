@@ -11,19 +11,19 @@ struct DOOMView: View {
     @State private var showInfo = false;
     var body: some View {
         VStack {
-            Button("Replace the warranty page!", action: OverwriteWarranty)
+            Button("Replace the RF Exposure page!", action: Over)
                 .controlSize(.large)
                 .tint(.red)
                 .buttonStyle(.bordered)
         }
-        .navigationTitle("DOOMWarranty")
+        .navigationTitle("DOOM RFExposure")
         .toolbar {
             Button(action: { showInfo = true }) {
                 Image(systemName: "info.circle")
             }
             .alert(isPresented: $showInfo) {
                 Alert(
-                    title: Text("DOOMWarranty"),
+                    title: Text("DOOM RFExposure"),
                     message: Text("Developed by BomberFish. Thanks to iSource#3334 for documenting the warranty page.")
                 )
             }
