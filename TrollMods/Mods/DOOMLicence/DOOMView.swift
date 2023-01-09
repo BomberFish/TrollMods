@@ -24,7 +24,7 @@ struct DOOMView: View {
             .alert(isPresented: $showInfo) {
                 Alert(
                     title: Text("DOOMLicence"),
-                    message: Text("Developed by BomberFish. Thanks to iSource#3334 for documenting the warranty page.")
+                    message: Text("Developed by BomberFish. Thanks to iSource#3334 for documenting the warranty page. DOOM is property of id Software and ZeniMax Media. All rights reserved.")
                 )
             }
         }
