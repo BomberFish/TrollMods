@@ -23,7 +23,7 @@ struct DOOMView: View {
             }
             .alert(isPresented: $showInfo) {
                 Alert(
-                    title: Text("DOOM RFExposure"),
+                    title: Text("DOOMLicence"),
                     message: Text("Developed by BomberFish. Thanks to iSource#3334 for documenting the warranty page.")
                 )
             }
