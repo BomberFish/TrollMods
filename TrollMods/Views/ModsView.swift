@@ -62,6 +62,17 @@ struct ModsList: View {
                     Text("DirtyCOW")
                 }
             }
+            NavigationLink(destination: TrollMods.DOOMView()) {
+                HStack {
+                    //TODO: Icon!!
+                    Image("DOOM")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 32)
+                        .cornerRadius(8)
+                    Text("DOOMWarranty")
+                }
+            }
         }
         .navigationTitle("TrollMods")
     }
