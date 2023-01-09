@@ -96,7 +96,7 @@ struct ModsView: View {
             ModsList()
             .toolbar {
                 Button(action: respring) {
-                    Image(systemName: "arrow.triangle.2.circlepath")
+                    Image(systemName: "arrow.counterclockwise.circle")
                     Text("Respring")
                 }
             }
