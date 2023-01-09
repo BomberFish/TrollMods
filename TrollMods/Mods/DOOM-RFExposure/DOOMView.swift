@@ -11,7 +11,7 @@ struct DOOMView: View {
     @State private var showInfo = false;
     var body: some View {
         VStack {
-            Button("Replace the RF Exposure page!", action: Over)
+            Button("Replace the RF Exposure page!", action: OverwriteExposure)
                 .controlSize(.large)
                 .tint(.red)
                 .buttonStyle(.bordered)
