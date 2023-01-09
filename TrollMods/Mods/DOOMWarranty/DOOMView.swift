@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct DOOMView: View {
+    @State private var showInfo = false;
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Replace the warranty page!", action: OverwriteWarranty)
+                .controlSize(.large)
+                .tint(.red)
+                .buttonStyle(.bordered)
+        }
+        .navigationTitle("DOOMWarranty")
+        .toolbar {
+            Button(action: { showInfo = true }) {
+                Image(systemName: "info.circle")
+            }
+            .alert(isPresented: $showInfo) {
+                Alert(
+                    title: Text("DOOMWarranty"),
+                    message: Text("Developed by BomberFish. Thanks to iSource#3334 for documenting the warranty page.")
+                )
+            }
+        }
     }
 }
 
