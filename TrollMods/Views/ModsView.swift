@@ -44,7 +44,7 @@ struct ModsList: View {
             
             NavigationLink(destination: TrollMods.TrollHomeView()) {
                 HStack {
-                    Image("TrollHome")
+                    Image("trollhome")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 32)
