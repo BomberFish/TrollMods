@@ -13,6 +13,19 @@ struct AppearanceCellView: View {
     @Binding var checkedProMax: Bool
     
     var body: some View {
+        if #available(iOS 16, *) {
+        listview
+        .listStyle(.insetGrouped)
+        .listRowSeparator(.hidden)
+        .scrollDisabled(true)
+        } else {
+            listview
+            .listStyle(.insetGrouped)
+            .listRowSeparator(.hidden)
+        }
+    }
+    @ViewBuilder
+    var listview: some View {
         List{
             Section {
                 HStack(spacing: 10){
@@ -75,9 +88,6 @@ struct AppearanceCellView: View {
             }
 
         }
-        .listStyle(.insetGrouped)
-        .listRowSeparator(.hidden)
-        .scrollDisabled(true)
     }
     
 }
