@@ -31,7 +31,7 @@ struct AppearanceCellView: View {
                 HStack(spacing: 10){
                     VStack(alignment: .center, spacing: 10){
                         Image(systemName: "iphone.gen3")
-                            .font(.system(size: 120))
+                            .font(.system(size: 110))
                             .symbolRenderingMode(.hierarchical)
                             .foregroundStyle(Color(UIColor.label).opacity(0.7))
                     
@@ -57,7 +57,7 @@ struct AppearanceCellView: View {
                     
                     VStack(alignment: .center, spacing: 10){
                         Image(systemName: "iphone.gen3")
-                            .font(.system(size: 120))
+                            .font(.system(size: 125))
                             .symbolRenderingMode(.hierarchical)
                             .foregroundStyle(Color(UIColor.label).opacity(0.7))
                            
