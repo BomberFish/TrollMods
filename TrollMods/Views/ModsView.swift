@@ -64,13 +64,22 @@ struct ModsList: View {
             }
             NavigationLink(destination: TrollMods.DOOMView()) {
                 HStack {
-                    //TODO: Icon!!
                     Image("DOOM")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 32)
                         .cornerRadius(8)
                     Text("DOOMLicence")
+                }
+            }
+            NavigationLink(destination: TrollMods.DynamicView()) {
+                HStack {
+                    Image("DynamicCow")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 32)
+                        .cornerRadius(8)
+                    Text("DynamicCow")
                 }
             }
         }
