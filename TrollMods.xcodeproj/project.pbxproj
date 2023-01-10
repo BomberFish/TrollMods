@@ -68,8 +68,6 @@
 		597F6AB4295B52F300E9DDF3 /* trollformation10.png in Resources */ = {isa = PBXBuildFile; fileRef = 597F6A8C295B52F300E9DDF3 /* trollformation10.png */; };
 		597F6AB8295B8C0800E9DDF3 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 597F6AB7295B8C0800E9DDF3 /* Zip */; };
 		D6020EE0296DA252005FC1A9 /* AppearanceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6020ED7296DA252005FC1A9 /* AppearanceCellView.swift */; };
-		D6020EE2296DA252005FC1A9 /* poc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6020EDA296DA252005FC1A9 /* poc.m */; };
-		D6020EE3296DA252005FC1A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6020EDC296DA252005FC1A9 /* Preview Assets.xcassets */; };
 		D6020EE4296DA252005FC1A9 /* DynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6020EDE296DA252005FC1A9 /* DynamicView.swift */; };
 		D619338B296B3AD600485B44 /* DirtyCOWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6193383296B3AD600485B44 /* DirtyCOWView.swift */; };
 		D619338D296B3AD600485B44 /* poc.m in Sources */ = {isa = PBXBuildFile; fileRef = D6193386296B3AD600485B44 /* poc.m */; };
@@ -145,10 +143,6 @@
 		597F6A8C295B52F300E9DDF3 /* trollformation10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trollformation10.png; sourceTree = "<group>"; };
 		597F6AB5295B59AC00E9DDF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6020ED7296DA252005FC1A9 /* AppearanceCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceCellView.swift; sourceTree = "<group>"; };
-		D6020ED8296DA252005FC1A9 /* DynamicCow-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DynamicCow-Bridging-Header.h"; sourceTree = "<group>"; };
-		D6020EDA296DA252005FC1A9 /* poc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = poc.m; sourceTree = "<group>"; };
-		D6020EDC296DA252005FC1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D6020EDD296DA252005FC1A9 /* poc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poc.h; sourceTree = "<group>"; };
 		D6020EDE296DA252005FC1A9 /* DynamicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicView.swift; sourceTree = "<group>"; };
 		D6193383296B3AD600485B44 /* DirtyCOWView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirtyCOWView.swift; sourceTree = "<group>"; };
 		D6193386296B3AD600485B44 /* poc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = poc.m; sourceTree = "<group>"; };
@@ -357,20 +351,8 @@
 			children = (
 				D6020ED7296DA252005FC1A9 /* AppearanceCellView.swift */,
 				D6020EDE296DA252005FC1A9 /* DynamicView.swift */,
-				D6020ED8296DA252005FC1A9 /* DynamicCow-Bridging-Header.h */,
-				D6020EDD296DA252005FC1A9 /* poc.h */,
-				D6020EDA296DA252005FC1A9 /* poc.m */,
-				D6020EDB296DA252005FC1A9 /* Preview Content */,
 			);
 			path = DynamicCow;
-			sourceTree = "<group>";
-		};
-		D6020EDB296DA252005FC1A9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D6020EDC296DA252005FC1A9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		D6193382296B3AB000485B44 /* DirtyCOW */ = {
@@ -485,7 +467,6 @@
 				597F69F6295B3DA800E9DDF3 /* Preview Assets.xcassets in Resources */,
 				597F6A96295B52F300E9DDF3 /* trollformation7.png in Resources */,
 				597F6A9D295B52F300E9DDF3 /* trollformation15.png in Resources */,
-				D6020EE3296DA252005FC1A9 /* Preview Assets.xcassets in Resources */,
 				597F6AA7295B52F300E9DDF3 /* trollformation18.png in Resources */,
 				D619338F296B3AD600485B44 /* Assets.xcassets in Resources */,
 				597F6A99295B52F300E9DDF3 /* trollformation9.png in Resources */,
@@ -533,7 +514,6 @@
 				59007801295E130C00A95DDA /* TrollFXImpl.swift in Sources */,
 				597F69EF295B3DA700E9DDF3 /* TrollModsApp.swift in Sources */,
 				596844AA29609E78009EF84B /* ModsView.swift in Sources */,
-				D6020EE2296DA252005FC1A9 /* poc.m in Sources */,
 				D6020EE0296DA252005FC1A9 /* AppearanceCellView.swift in Sources */,
 				D6193399296B963000485B44 /* DOOMView.swift in Sources */,
 				597F6A0B295B4C3800E9DDF3 /* vm_unaligned_copy_switch_race.c in Sources */,
