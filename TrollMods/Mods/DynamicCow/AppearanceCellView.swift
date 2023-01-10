@@ -20,7 +20,7 @@ struct AppearanceCellView: View {
                         Image(systemName: "iphone.gen3")
                             .font(.system(size: 120))
                             .symbolRenderingMode(.hierarchical)
-                            .foregroundStyle(.white.opacity(0.7))
+                            .foregroundStyle(Color(UIColor.label).opacity(0.7))
                     
                         Text("iPhone 14\nPro")
                             .multilineTextAlignment(.center)
@@ -46,13 +46,13 @@ struct AppearanceCellView: View {
                         Image(systemName: "iphone.gen3")
                             .font(.system(size: 120))
                             .symbolRenderingMode(.hierarchical)
-                            .foregroundStyle(.white.opacity(0.7))
+                            .foregroundStyle(Color(UIColor.label).opacity(0.7))
                            
                         Text("iPhone 14\nPro Max")
                             .multilineTextAlignment(.center)
                         
                         Image(systemName: checkedProMax ? "checkmark.circle.fill" : "circle")
-                            .foregroundColor(checkedProMax ? .white : .secondary)
+                            .foregroundColor(checkedProMax ? Color(UIColor.label) : Color(UIColor.secondaryLabel))
                             .font(.title)
                             .padding([.horizontal, .top])
                                    
