@@ -72,14 +72,16 @@ struct ModsList: View {
                     Text("DOOMLicence")
                 }
             }
-            NavigationLink(destination: TrollMods.DynamicView()) {
-                HStack {
-                    Image("DynamicCow")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 32)
-                        .cornerRadius(8)
-                    Text("DynamicCow")
+            if #available(iOS 16, *) {
+                NavigationLink(destination: TrollMods.DynamicView()) {
+                    HStack {
+                        Image("DynamicCow")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 32)
+                            .cornerRadius(8)
+                        Text("DynamicCow")
+                    }
                 }
             }
         }
