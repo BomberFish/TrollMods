@@ -68,15 +68,15 @@ struct DynamicView: View {
                 } label: {
                     RoundedRectangle(cornerRadius: 15)
                         .frame(height: 54)
-                        .foregroundColor(.white.opacity(0.9))
+                        .foregroundColor(Color(UIColor.label).opacity(0.9))
                         .overlay {
                             if !isDoing{
                                 Text(isEnabled ? "Disable" : "Enable")
-                                    .foregroundColor(.black)
+                                    .foregroundColor(Color(UIColor.label))
                                     .bold()
                             }else{
                                 ProgressView()
-                                    .tint(.black)
+                                    .tint(Color(UIColor.label))
                             }
                         }
                 }
@@ -107,7 +107,7 @@ struct DynamicView: View {
                         .animation(.spring(), value: isEnabled)
                 }else{
                     ProgressView()
-                        .tint(.white)
+                        .tint(Color(UIColor.label))
                 }
                 Button(action: { showInfo = true }) {
                     Image(systemName: "info.circle")

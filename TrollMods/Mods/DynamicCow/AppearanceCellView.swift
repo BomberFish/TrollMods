@@ -39,7 +39,7 @@ struct AppearanceCellView: View {
                             .multilineTextAlignment(.center)
                         
                         Image(systemName: checkedPro ? "checkmark.circle.fill" : "circle")
-                            .foregroundColor(checkedPro ? .white : .secondary)
+                            .foregroundColor(checkedPro ? Color(UIColor.label) : Color(UIColor.secondaryLabel))
                             .font(.title)
                             .padding([.horizontal, .top])
                                 
